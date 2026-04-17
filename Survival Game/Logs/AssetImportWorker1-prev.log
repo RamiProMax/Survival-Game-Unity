@@ -1,0 +1,1019 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 16075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Survival Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+6627
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: E:/Survival Game
+E:/Survival Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29260]  Target information:
+
+Player connection [29260]  * "[IP] 172.27.112.1 [Port] 0 [Flags] 2 [Guid] 2851852819 [EditorId] 2851852819 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6KD9S8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29260]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2851852819 [EditorId] 2851852819 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6KD9S8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29260]  * "[IP] 192.168.196.1 [Port] 0 [Flags] 2 [Guid] 2851852819 [EditorId] 2851852819 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6KD9S8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29260]  * "[IP] 192.168.111.1 [Port] 0 [Flags] 2 [Guid] 2851852819 [EditorId] 2851852819 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6KD9S8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29260]  * "[IP] 10.29.61.148 [Port] 0 [Flags] 2 [Guid] 2851852819 [EditorId] 2851852819 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6KD9S8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29260] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29260] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.28f1 (f336aca0cab5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Survival Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.015581 seconds.
+- Loaded All Assemblies, in  0.584 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1409 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.100 seconds
+Domain Reload Profiling: 2683ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (237ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2047ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1548ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (232ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.307 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.745 seconds
+Domain Reload Profiling: 4051ms
+	BeginReloadAssembly (1167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (973ms)
+		LoadAssemblies (658ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (500ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (325ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (1747ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (935ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5900 unused Assets / (4.5 MB). Loaded Objects now: 6668.
+Memory consumption went from 178.1 MB to 173.6 MB.
+Total: 11.493600 ms (FindLiveObjects: 0.806700 ms CreateObjectMapping: 0.701600 ms MarkObjects: 6.054000 ms  DeleteObjects: 3.929300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 673467.103642 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15be5ba4d5b2b3ffcc56475d7901d8b3') in 0.0378528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/UnityInternals/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/UnityInternals/Unity.CollabProxy.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.227 seconds
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/UnityInternals/Unity.CollabProxy.Editor.asmdef)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/UnityInternals/Unity.CollabProxy.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.695 seconds
+Domain Reload Profiling: 2921ms
+	BeginReloadAssembly (329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (733ms)
+		LoadAssemblies (496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (228ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1165ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (912ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6334 unused Assets / (3.9 MB). Loaded Objects now: 7117.
+Memory consumption went from 164.1 MB to 160.2 MB.
+Total: 14.873500 ms (FindLiveObjects: 1.071100 ms CreateObjectMapping: 1.916500 ms MarkObjects: 7.221400 ms  DeleteObjects: 4.662200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3696.692639 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Images/Crosshair.png
+  artifactKey: Guid(35f00806389d3d94c954afe765a3dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Images/Crosshair.png using Guid(35f00806389d3d94c954afe765a3dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb6bb0d0a475f14b6bcb6eb0d0298e2') in 0.283573 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.306273 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Enemies/Door_Frame_02.fbx
+  artifactKey: Guid(ca2e67c4e68781b4592af81565468482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Enemies/Door_Frame_02.fbx using Guid(ca2e67c4e68781b4592af81565468482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '034ee9051fcc073d93bb77b4fe91629a') in 6.5057982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Enemies/ModularAttachment_Gun01.fbx
+  artifactKey: Guid(e3a03812c44d617468be96d858defe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Enemies/ModularAttachment_Gun01.fbx using Guid(e3a03812c44d617468be96d858defe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '587e05a63ba9a15f37ff6e368bfa7d6d') in 0.0262849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Environment/Rover_03_Front_Body.fbx
+  artifactKey: Guid(3d585dcfbdc52b642a51b853513c0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Environment/Rover_03_Front_Body.fbx using Guid(3d585dcfbdc52b642a51b853513c0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6ed4f58cffd23310f930d7c0a92be2') in 0.0412177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Environment/Container_1.fbx
+  artifactKey: Guid(d4e05240a0401f44eafe469f29e1d5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Environment/Container_1.fbx using Guid(d4e05240a0401f44eafe469f29e1d5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcbdf988bf1cd18c802a3b9567f1c4d8') in 0.0360945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Environment/Generator_Light_02.fbx
+  artifactKey: Guid(012ac03731c2d014ab3a6d9e14d29abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Environment/Generator_Light_02.fbx using Guid(012ac03731c2d014ab3a6d9e14d29abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1da56c48571da8782e5732d5a2acf964') in 5.4770314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Pickups
+  artifactKey: Guid(27cfabf1d1158564da9600b0f83b767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Pickups using Guid(27cfabf1d1158564da9600b0f83b767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9a2723696422577543552d431261a93') in 0.0008652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Kinetic Weapons/Heavy_machine_gun_01_Blue_Team.fbx
+  artifactKey: Guid(e8c5e5625b7bd884899700bf60088473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Kinetic Weapons/Heavy_machine_gun_01_Blue_Team.fbx using Guid(e8c5e5625b7bd884899700bf60088473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd84e9c1e6c4298c8f8220dcf8d86c292') in 0.0328758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Environment/Crate_05.fbx
+  artifactKey: Guid(ac49df47460a11448b80e99b6ccf840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Environment/Crate_05.fbx using Guid(ac49df47460a11448b80e99b6ccf840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecd1333647b953c9344ac94f2ddcc2b0') in 0.0327204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Enemies/ModularAttachment_Base.fbx
+  artifactKey: Guid(22446f54df6b86c449f2a4da0587a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Enemies/ModularAttachment_Base.fbx using Guid(22446f54df6b86c449f2a4da0587a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78464391288c559f0b04d884b75a0112') in 0.0203661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Models/Kinetic Weapons/Sniper_01_Blue.fbx
+  artifactKey: Guid(860f35edef6dcfe40b58b14593dfeafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Models/Kinetic Weapons/Sniper_01_Blue.fbx using Guid(860f35edef6dcfe40b58b14593dfeafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '814e173ec60c1d2223f518905277a63f') in 0.0306917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.958158 seconds.
+  path: Assets/GDTV Sharp Shooter Assets/Textures & Materials/Custom/Teal Glow.mat
+  artifactKey: Guid(5d39eafbc33c7184a95c0eaff04878e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GDTV Sharp Shooter Assets/Textures & Materials/Custom/Teal Glow.mat using Guid(5d39eafbc33c7184a95c0eaff04878e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97771b46df35b4af60f8e846fbfed69c') in 0.0320459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 175914.815826 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v2/Source/Concrete_fence_v2.mat
+  artifactKey: Guid(9d41c32f719dc4b47bd0cbe39860bdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Concrete_fences/Concrete_fence_v2/Source/Concrete_fence_v2.mat using Guid(9d41c32f719dc4b47bd0cbe39860bdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3267252febc8b7d357fbc38f7e352219') in 0.4444008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v2/Source/Oil_tank_v2.mat
+  artifactKey: Guid(8b1a5387e6ed41c4f926b0d04df05a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v2/Source/Oil_tank_v2.mat using Guid(8b1a5387e6ed41c4f926b0d04df05a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f6fa660d5478c4852805c7ba1d977b') in 0.0462445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Industrial_pipes/Industrial_pipe_v1/Source/Industrial_pipe_v1.mat
+  artifactKey: Guid(8290c716c91fee74faa2bd2490e059a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Industrial_pipes/Industrial_pipe_v1/Source/Industrial_pipe_v1.mat using Guid(8290c716c91fee74faa2bd2490e059a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1e3d67bd90f0fb399342dfd72d879bf') in 0.037781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v1/Source/Electric_box_v1.mat
+  artifactKey: Guid(7929421cb15ed0c4f873c3a43793a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v1/Source/Electric_box_v1.mat using Guid(7929421cb15ed0c4f873c3a43793a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a52e235d14c5a33f7df9be08708681e') in 0.0346157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Generators/Generator_v1/Source/Generator_v1.mat
+  artifactKey: Guid(381346ab5f747d8468f1a25ceb5ee3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Generators/Generator_v1/Source/Generator_v1.mat using Guid(381346ab5f747d8468f1a25ceb5ee3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5d00c00ec7458ed4fa095ed75ed8309') in 0.0338422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v3/Source/Hangar_v3.mat
+  artifactKey: Guid(04217182e1d62cf478028b88bd3f911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v3/Source/Hangar_v3.mat using Guid(04217182e1d62cf478028b88bd3f911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '559312a70f5758bd9352626bd6945738') in 0.0337567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4/Source/Hangar_v4.mat
+  artifactKey: Guid(80862cc9f0fa8244dabb1d398ece476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4/Source/Hangar_v4.mat using Guid(80862cc9f0fa8244dabb1d398ece476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cf68b83b30cc686c52524086324b512') in 0.0310342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Particles/Smoke/Smoke_v1/Source/New Material.mat
+  artifactKey: Guid(469d8033d18450a4ba5415df152e330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Particles/Smoke/Smoke_v1/Source/New Material.mat using Guid(469d8033d18450a4ba5415df152e330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6e403de95324b2d0a32f308b2053e1') in 0.0697933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v2/Source/Hangar_v2.mat
+  artifactKey: Guid(8d81f9b16a9135446b5451caa37570ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v2/Source/Hangar_v2.mat using Guid(8d81f9b16a9135446b5451caa37570ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acd78a6bceadd87a029a02c630348e2a') in 0.0246461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.mat
+  artifactKey: Guid(5549011eb0be2f44a8bd15f42714f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.mat using Guid(5549011eb0be2f44a8bd15f42714f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81d90ec8e6150d59640cb71c593158c6') in 0.0231063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.714722 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Textures/Asphalt/Seamless_asphalt_v1/Seamless_asphalt_v1.mat
+  artifactKey: Guid(999517f045d65924db469ec2a4a5c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Textures/Asphalt/Seamless_asphalt_v1/Seamless_asphalt_v1.mat using Guid(999517f045d65924db469ec2a4a5c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a14d44066ca024e8a5c8f2a180dacd93') in 0.0246749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Textures/Skyboxes/Skybox_v9.mat
+  artifactKey: Guid(c5f7cede6a925514386b816bbae7e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Textures/Skyboxes/Skybox_v9.mat using Guid(c5f7cede6a925514386b816bbae7e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21207d3128cbf08a596546b359fad615') in 0.1059278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Source/Wooden_box_v1.mat
+  artifactKey: Guid(1a087c65608607042accf116f4319d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Source/Wooden_box_v1.mat using Guid(1a087c65608607042accf116f4319d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7489dd1415649a4f496dd7f19f7cc3b7') in 0.0207248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.697946 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat
+  artifactKey: Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat using Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd22f735dc6173ffe6fc81ef019b767') in 0.0247664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat
+  artifactKey: Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat using Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84fab91649804f64f852dc76773d3cf1') in 0.0317168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.mat
+  artifactKey: Guid(725065c3e256d624785aad798a8d0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.mat using Guid(725065c3e256d624785aad798a8d0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fed6171d35c8a53c034516681c1f71f6') in 0.0281502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 611.335131 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Textures/Grass/Grass_v1.mat
+  artifactKey: Guid(72b1322d6d38696439f8d1e283ddfdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Textures/Grass/Grass_v1.mat using Guid(72b1322d6d38696439f8d1e283ddfdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f54237b5e3698e10a7d49770579beee5') in 3.8567958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 35.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6343 unused Assets / (3.8 MB). Loaded Objects now: 7329.
+Memory consumption went from 173.8 MB to 170.0 MB.
+Total: 341.378900 ms (FindLiveObjects: 4.341100 ms CreateObjectMapping: 0.972000 ms MarkObjects: 330.385100 ms  DeleteObjects: 5.678200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6342 unused Assets / (4.1 MB). Loaded Objects now: 7329.
+Memory consumption went from 173.8 MB to 169.8 MB.
+Total: 16.177700 ms (FindLiveObjects: 0.797300 ms CreateObjectMapping: 1.083700 ms MarkObjects: 10.336500 ms  DeleteObjects: 3.957800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 199.347789 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Concrete.mat
+  artifactKey: Guid(f1c5338b1f33ed443b0ba4f28608137f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Concrete.mat using Guid(f1c5338b1f33ed443b0ba4f28608137f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2872c51ceb2ae40cadb85eb6b91c677') in 0.165185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Concrete.mat
+  artifactKey: Guid(4abb48f8ea75ab540b85f92b341053c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Concrete.mat using Guid(4abb48f8ea75ab540b85f92b341053c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50a9adfcc4d2b836fafd9762eb8b578e') in 5.674777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 6276.586380 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Source/Dumpsters_v1.mat
+  artifactKey: Guid(3f513b9c59aff4f409bf303083c4a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Source/Dumpsters_v1.mat using Guid(3f513b9c59aff4f409bf303083c4a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea4cd7eb139351ff6efdbc2816765b25') in 0.1726469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v2/Source/Electric_box_v2.mat
+  artifactKey: Guid(9c5619fe582a6fd4a9e176b10cfb600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v2/Source/Electric_box_v2.mat using Guid(9c5619fe582a6fd4a9e176b10cfb600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb0426649e55d8aee818b615a61c3bfd') in 0.0426785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat
+  artifactKey: Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat using Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb90a18e41d4561a83ebaa125b7df2d6') in 0.0392314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Gravel.mat
+  artifactKey: Guid(ad43eae74c325a64997896345052c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Gravel.mat using Guid(ad43eae74c325a64997896345052c377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f1aab09095496247707fd01b3c3a6a0') in 0.1148828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Gravel.mat
+  artifactKey: Guid(955647b1e7f0fae46a2b03f0030e6bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Gravel.mat using Guid(955647b1e7f0fae46a2b03f0030e6bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3967d45e038782b8fdfb18e4e47f6fc2') in 0.0386674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Industrial_pipes/Industrial_pipe_v1/Source/Industrial_pipe_v1.mat
+  artifactKey: Guid(8290c716c91fee74faa2bd2490e059a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Industrial_pipes/Industrial_pipe_v1/Source/Industrial_pipe_v1.mat using Guid(8290c716c91fee74faa2bd2490e059a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60f8e05ef38be0140684bc3e07373cda') in 0.0410125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/AK-47 1.mat
+  artifactKey: Guid(d54ec8f8ce654fb46a1e2cc37e05dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/AK-47 1.mat using Guid(d54ec8f8ce654fb46a1e2cc37e05dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82651d429bd637672e81b875413f3c27') in 4.9831661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Metal.mat
+  artifactKey: Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Metal.mat using Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbdb10c708fcf0e19f3d0453f848dffa') in 0.0377451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/L96_Sniper_Rifle 1.mat
+  artifactKey: Guid(7ce47333271a9664fbfee197102a53b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/L96_Sniper_Rifle 1.mat using Guid(7ce47333271a9664fbfee197102a53b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16ccae1db5ec6c5902a1c31da859c0a2') in 0.0765024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Wood.mat
+  artifactKey: Guid(3811c444d8be5444e96e33bcf7cac4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Wood.mat using Guid(3811c444d8be5444e96e33bcf7cac4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '477ac5f1cd70a84d37a6b256516f9988') in 0.0228523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Metal.mat
+  artifactKey: Guid(28a1e7aedff3d504c8c374c14fddea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Metal.mat using Guid(28a1e7aedff3d504c8c374c14fddea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca661e753aaf76e252af286db7f0acda') in 0.0172998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Textures/Concrete_wall/UNIConcrete_walls/UNIConcrete_wall_v2/UNIConcrete_wall_v2.mat
+  artifactKey: Guid(57853bd09e6482d4f8e7fbd0f0364014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Textures/Concrete_wall/UNIConcrete_walls/UNIConcrete_wall_v2/UNIConcrete_wall_v2.mat using Guid(57853bd09e6482d4f8e7fbd0f0364014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b23af8d6b98fff95cef9d0f17dd3db4') in 0.0497296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v2/Source/Oil_tank_v2.mat
+  artifactKey: Guid(8b1a5387e6ed41c4f926b0d04df05a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v2/Source/Oil_tank_v2.mat using Guid(8b1a5387e6ed41c4f926b0d04df05a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2970f373ac4d4b23e8782c143f43f22d') in 0.0504363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Pipe_sets/Pipes_set_v1/Source/Pipes_set_v1.mat
+  artifactKey: Guid(95f35bc55e58b884d8bcb1195b26fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Pipe_sets/Pipes_set_v1/Source/Pipes_set_v1.mat using Guid(95f35bc55e58b884d8bcb1195b26fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f62636d10455159aaf73818c773f1f') in 0.0550041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/M4_Carbine 1.mat
+  artifactKey: Guid(26d27467e812c8f4eb4bfaf618439814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/M4_Carbine 1.mat using Guid(26d27467e812c8f4eb4bfaf618439814) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3dab31ccff8555de78e187e14e877f4') in 0.0155218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Textures/Asphalt/Seamless_asphalt_v1/Seamless_asphalt_v1.mat
+  artifactKey: Guid(999517f045d65924db469ec2a4a5c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Textures/Asphalt/Seamless_asphalt_v1/Seamless_asphalt_v1.mat using Guid(999517f045d65924db469ec2a4a5c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf7957fdd801334f684a346883e689d9') in 0.0452284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Player Interactable.mat
+  artifactKey: Guid(6abb15358c3a1a1408a245124784c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Player Interactable.mat using Guid(6abb15358c3a1a1408a245124784c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b67975ebbd20a42dc9ebb991b380f7') in 0.0262634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Target.mat
+  artifactKey: Guid(76b00d4fbe988d347b7953196468457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Target.mat using Guid(76b00d4fbe988d347b7953196468457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd46b966c119c2c6bd8a18260fb8ea087') in 0.0719018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/SkyHaloSky.mat
+  artifactKey: Guid(e523c896238589445ae28370258d26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/SkyHaloSky.mat using Guid(e523c896238589445ae28370258d26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8a5187fc24c2b9609a36655f7b0e3f3') in 0.2397671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Water.mat
+  artifactKey: Guid(0ebc33650f3e1c048abb3dd8a06ba06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Water.mat using Guid(0ebc33650f3e1c048abb3dd8a06ba06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ff8c54ad9e351dfc120d5706b699ebc') in 0.0234189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Grass.mat
+  artifactKey: Guid(36971a20ff6e47244a2173d19cb3cabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Grass.mat using Guid(36971a20ff6e47244a2173d19cb3cabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce88ccdaa36c6a7caf45573efea5eaf3') in 0.0303586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Textures/Asphalt/Road_with_pavements_v1/Road_with_pavements_v1.mat
+  artifactKey: Guid(8d5d2d46a0146fa4c86ae0c056e3282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Textures/Asphalt/Road_with_pavements_v1/Road_with_pavements_v1.mat using Guid(8d5d2d46a0146fa4c86ae0c056e3282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71449eea03601ca24514c1a01e033259') in 0.0515996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Wood.mat
+  artifactKey: Guid(398f4c878d57b764bbadb2ba554c5096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Wood.mat using Guid(398f4c878d57b764bbadb2ba554c5096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90d8b654ab0f90ebf0a6134fcd90710a') in 0.0407939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/AK-47 1.mat
+  artifactKey: Guid(83f1d252e21d9bd479b1b8fab4312ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/AK-47 1.mat using Guid(83f1d252e21d9bd479b1b8fab4312ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc99587c10d23d2b263d84ab6ac1de54') in 0.0181229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Models/Materials/AK-47.mat
+  artifactKey: Guid(28c55af92210f56469705de927e98d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Models/Materials/AK-47.mat using Guid(28c55af92210f56469705de927e98d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e927df188a7999f565b7407d1fa104') in 0.0114374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scary_Evil/Prefab/evil@Standing Melee Attack Backhand.fbx
+  artifactKey: Guid(eb4bdd2b1c347c24594ab9df11baf4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scary_Evil/Prefab/evil@Standing Melee Attack Backhand.fbx using Guid(eb4bdd2b1c347c24594ab9df11baf4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daccc820fca7af62f73a385088c3e244') in 0.2226749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Textures/Transparent/Lattice/Lattice_v1/Lattice_v1.mat
+  artifactKey: Guid(666d0826bcae23540ad89fb826867c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Textures/Transparent/Lattice/Lattice_v1/Lattice_v1.mat using Guid(666d0826bcae23540ad89fb826867c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '125b551662663d869d4fc4ae92408bb3') in 2.8301573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v2/Source/Hangar_v2.mat
+  artifactKey: Guid(8d81f9b16a9135446b5451caa37570ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v2/Source/Hangar_v2.mat using Guid(8d81f9b16a9135446b5451caa37570ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a2c22d1819729d05aa6993670e6aa92') in 0.0451339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Grass.mat
+  artifactKey: Guid(7824299439ec64941bb271a882649e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Grass.mat using Guid(7824299439ec64941bb271a882649e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0291f43d8ff9014508489b3b0c239a05') in 0.0427005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scary_Evil/Prefab/evil@Walking.fbx
+  artifactKey: Guid(3bc1499c59e6b404c9048e6d6ffff4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scary_Evil/Prefab/evil@Walking.fbx using Guid(3bc1499c59e6b404c9048e6d6ffff4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a429adf66498f68d660dde91d8bb6202') in 0.1008553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Prefabs/lod0.fbx
+  artifactKey: Guid(dff5b14c21a72844db69f2eb20362be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Prefabs/lod0.fbx using Guid(dff5b14c21a72844db69f2eb20362be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1353695b218e016f66a45ce5d5eb8a94') in 0.0395896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scary_Evil/Prefab/evil@Idle (1).fbx
+  artifactKey: Guid(7204ce8375bbb664b89cc51b7db49c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scary_Evil/Prefab/evil@Idle (1).fbx using Guid(7204ce8375bbb664b89cc51b7db49c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b17af8e795dd2e41f639b8a6de7f1d') in 0.0858462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Player Interactable.mat
+  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Player Interactable.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c975dbf96c584f4e12add7106ac6f7a9') in 0.0406924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Water.mat
+  artifactKey: Guid(45f04857899f4854698c55e1ac1a3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Water.mat using Guid(45f04857899f4854698c55e1ac1a3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebb1920a05f1915b4c23954a8d7b45e3') in 0.0108165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Walls.mat
+  artifactKey: Guid(a6042b5d867f72c419c5dc7b59efd643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/URP/Walls.mat using Guid(a6042b5d867f72c419c5dc7b59efd643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ab44edd8e6ee448d0a0cff2dd980ae5') in 0.0352473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/HDRP/BulletDecalMetal.mat
+  artifactKey: Guid(ac72d8b11dd15be4eb14cdd05aa4e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/HDRP/BulletDecalMetal.mat using Guid(ac72d8b11dd15be4eb14cdd05aa4e8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd939db535318cb7353af62f9fff1816d') in 0.0217124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Jump Pad.mat
+  artifactKey: Guid(596ef94758511c1468c2183112ff3b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Jump Pad.mat using Guid(596ef94758511c1468c2183112ff3b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb0289a938e99766378375c64ec8715c') in 0.0164456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Models/Materials/M4_Carbine.mat
+  artifactKey: Guid(bb65e2ddb18cfa24b907dec6c08712d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Models/Materials/M4_Carbine.mat using Guid(bb65e2ddb18cfa24b907dec6c08712d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f5d4205b031dfd92238a453ce0097d7') in 0.0099829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/M4_Carbine 1.mat
+  artifactKey: Guid(dcc40fe7e78191d4dbb8af85638cb632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/M4_Carbine 1.mat using Guid(dcc40fe7e78191d4dbb8af85638cb632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4d95f6e4e9fb7a328d5baa6996f7fb') in 0.0522028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Wood.mat
+  artifactKey: Guid(b4e6576de931bd04aa4121f9e9b5f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Wood.mat using Guid(b4e6576de931bd04aa4121f9e9b5f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9af52875c1ab6e04540228120ccd7a9e') in 0.0178956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Fences/Road_blocks/Road_block_v1/Source/Road_block_v1.mat
+  artifactKey: Guid(2d466dac55e3cd54ba41e1af2e5e0b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Fences/Road_blocks/Road_block_v1/Source/Road_block_v1.mat using Guid(2d466dac55e3cd54ba41e1af2e5e0b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6adf50a0c2e79baeecf4b7551ba7b84c') in 0.0399414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/Pistol 1.mat
+  artifactKey: Guid(45bd1b64d0166fe4d81bf17ec839b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/BuiltIn/Pistol 1.mat using Guid(45bd1b64d0166fe4d81bf17ec839b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b52ce7b2289d31affac377ff03e81dd') in 0.0198621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Target.mat
+  artifactKey: Guid(3b84ec85ae243134ca4db5638e0f8568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Target.mat using Guid(3b84ec85ae243134ca4db5638e0f8568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '317e0ab210929b230d54ad7e38d76700') in 0.0338675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4/Source/Hangar_v4.mat
+  artifactKey: Guid(80862cc9f0fa8244dabb1d398ece476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4/Source/Hangar_v4.mat using Guid(80862cc9f0fa8244dabb1d398ece476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48c62b0b1f9fc419cfff6581547e87ad') in 0.0509724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Models/Materials/L96_Sniper_Rifle.mat
+  artifactKey: Guid(70980b263f290094e8f7255b92b1e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Models/Materials/L96_Sniper_Rifle.mat using Guid(70980b263f290094e8f7255b92b1e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa9b08657f6e534847cc7c38bb57a1ec') in 0.0224857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Metal.mat
+  artifactKey: Guid(4f8ed8b74ea7a8140a20d9464edd5403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Metal.mat using Guid(4f8ed8b74ea7a8140a20d9464edd5403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764d6ddc180adbf5e159e99402021439') in 0.0338654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scary_Evil/Prefab/evil@Threatening.fbx
+  artifactKey: Guid(eaf98bc3bc7539f4283be8530a69bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scary_Evil/Prefab/evil@Threatening.fbx using Guid(eaf98bc3bc7539f4283be8530a69bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a5e82c4c8bd0f212e6330cdb0b0b846') in 0.0856069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
+  artifactKey: Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat using Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '805845bff14416daf55c7e1f99b25fc5') in 0.0457158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/HDRP/AK-47 1.mat
+  artifactKey: Guid(83d7d2b7e068cd24f89ede3d31012dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/HDRP/AK-47 1.mat using Guid(83d7d2b7e068cd24f89ede3d31012dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5834320bfe973761f740fd3cd80eb9c') in 0.0396978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/Pistol 1.mat
+  artifactKey: Guid(31305591b036d824f9219efa4d66fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/Pistol 1.mat using Guid(31305591b036d824f9219efa4d66fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b431f290d43e71749b61bcd59e18d910') in 0.0430048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Grass.mat
+  artifactKey: Guid(af09df040398646459aaa13fd140c3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/HDRP/Grass.mat using Guid(af09df040398646459aaa13fd140c3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5ad744cd9f3fc92d18f4fa6bb07a97') in 0.0238307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v1/Source/Oil_tank_v1.mat
+  artifactKey: Guid(8573c79e2e3e6c14c8dc545c942c8a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v1/Source/Oil_tank_v1.mat using Guid(8573c79e2e3e6c14c8dc545c942c8a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '889355026bdcdd53397cb0016657169f') in 0.0471167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Player Interactable.mat
+  artifactKey: Guid(83facb11331c079469a15e3f19b7465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Demo/Demo Environment/Materials/BuiltIn/Player Interactable.mat using Guid(83facb11331c079469a15e3f19b7465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4210fb917cfd11f7d7d3f45a8b4be907') in 0.0189762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/BulletDecalMetal.mat
+  artifactKey: Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spoiled Unknown/XtremeFPS/Weapon/Materials/URP/BulletDecalMetal.mat using Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47981925ca2daf6b54811204ec611e3b') in 4.3853103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6734 unused Assets / (4.6 MB). Loaded Objects now: 7720.
+Memory consumption went from 183.5 MB to 178.9 MB.
+Total: 31.641100 ms (FindLiveObjects: 0.954000 ms CreateObjectMapping: 0.646100 ms MarkObjects: 27.472000 ms  DeleteObjects: 2.567900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6733 unused Assets / (2.2 MB). Loaded Objects now: 7720.
+Memory consumption went from 183.5 MB to 181.3 MB.
+Total: 35.542000 ms (FindLiveObjects: 1.782300 ms CreateObjectMapping: 1.395300 ms MarkObjects: 26.226000 ms  DeleteObjects: 6.134400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6733 unused Assets / (4.9 MB). Loaded Objects now: 7720.
+Memory consumption went from 183.5 MB to 178.6 MB.
+Total: 13.995000 ms (FindLiveObjects: 0.770600 ms CreateObjectMapping: 0.649100 ms MarkObjects: 9.621800 ms  DeleteObjects: 2.952100 ms)
+
+Prepare: number of updated asset objects reloaded= 0

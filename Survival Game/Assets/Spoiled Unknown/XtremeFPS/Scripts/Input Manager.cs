@@ -19,6 +19,8 @@ namespace XtremeFPS.InputHandling
         #region Variables
         public int maxTouchLimit = 10;
         public TouchDetectMode touchDetectionMode;
+        public bool isFiringHold;
+        public bool isFiringTapped;
 
         [HideInInspector] private PlayerInputAction playerInputAction;
 
@@ -42,8 +44,7 @@ namespace XtremeFPS.InputHandling
         [HideInInspector] public bool isZoomingTapped;
 
         //Weapon
-        [HideInInspector] public bool isFiringHold;
-        [HideInInspector] public bool isFiringTapped;
+        
         [HideInInspector] public bool isReloading;
         [HideInInspector] public bool isAimingHold;
         [HideInInspector] public bool isAimingTapped;

@@ -10,6 +10,7 @@ TagManager:
   - Water
   - Metals
   - Wood
+  - Enemy
   layers:
   - Default
   - TransparentFX

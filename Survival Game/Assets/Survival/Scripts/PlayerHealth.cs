@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameObject playerParent;
+    public GameObject theMainCam;
     [Header("Health Settings")]
     public float maxHealth = 100f;
     public float currentHealth;
@@ -87,6 +89,8 @@ public class PlayerHealth : MonoBehaviour
         audioSource.PlayOneShot(deathSound);
     
         gameOverPanel.SetActive(true);
+        theMainCam.SetActive(true);
+        playerParent.SetActive(false);
         
 
         // ⏸️ Pause game

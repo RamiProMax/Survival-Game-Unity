@@ -4,6 +4,8 @@ using TMPro;
 public class SpawnManager : MonoBehaviour
 {
     [Header("References")]
+    public GameObject playerParent;
+    public GameObject theMainCam;
     public Transform player;
     public Transform[] spawnPoints;
     public GameObject[] enemyPrefabs;
@@ -114,7 +116,13 @@ public class SpawnManager : MonoBehaviour
         Time.timeScale = 0f;
 
         if (upgradePanel != null)
+        {
             upgradePanel.SetActive(true);
+            playerParent.SetActive(false);
+            theMainCam.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     public void ContinueToNextWave()
@@ -123,6 +131,8 @@ public class SpawnManager : MonoBehaviour
 
         if (upgradePanel != null)
             upgradePanel.SetActive(false);
+            playerParent.SetActive(true);
+            theMainCam.SetActive(false);
 
         waitingForUpgrade = false;
 
@@ -158,6 +168,9 @@ public class SpawnManager : MonoBehaviour
         // 🏆 Show win UI
         if (gameWonPanel != null)
             gameWonPanel.SetActive(true);
+            playerParent.SetActive(false);
+            theMainCam.SetActive(true);
+
 
         // 🖱️ Unlock cursor
         Cursor.lockState = CursorLockMode.None;
@@ -182,7 +195,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (creditsText != null)
         {
-            creditsText.text = "Credits: " + credits;
+            creditsText.text = "Scarps: " + credits;
         }
     }
 }

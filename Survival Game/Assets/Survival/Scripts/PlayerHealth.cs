@@ -8,31 +8,44 @@ public class PlayerHealth : MonoBehaviour
     public float currentHealth;
 
     [Header("Regeneration Settings")]
-    public float regenDelay = 3f;      // Time after last damage
-    public float regenRate = 5f;       // Health per second
+    public float regenDelay = 3f;
+    public float regenRate = 5f;
 
     private float lastDamageTime;
+    private bool isDead = false;
 
     [Header("UI")]
     public Slider healthSlider;
+    public GameObject gameOverPanel; // assign in inspector
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip deathSound;
 
     void Start()
     {
         currentHealth = maxHealth;
         UpdateUI();
+
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(false);
     }
 
     void Update()
     {
+        if (isDead) return;
+
         HandleRegen();
     }
 
     public void TakeDamage(float amount)
     {
+        if (isDead) return;
+
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
-        lastDamageTime = Time.time; // reset regen timer
+        lastDamageTime = Time.time;
 
         UpdateUI();
 
@@ -46,7 +59,6 @@ public class PlayerHealth : MonoBehaviour
 
     void HandleRegen()
     {
-        // Start regen after delay
         if (Time.time > lastDamageTime + regenDelay && currentHealth < maxHealth)
         {
             currentHealth += regenRate * Time.deltaTime;
@@ -66,6 +78,22 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
+        if (isDead) return;
+        isDead = true;
+
         Debug.Log("Player Dead");
+
+        
+        audioSource.PlayOneShot(deathSound);
+    
+        gameOverPanel.SetActive(true);
+        
+
+        // ⏸️ Pause game
+        Time.timeScale = 0f;
+
+        // 🖱️ Unlock cursor (important for UI)
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

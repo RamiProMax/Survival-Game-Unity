@@ -23,17 +23,27 @@ public class SpawnManager : MonoBehaviour
     private bool isSpawning = true;
     private bool waitingForUpgrade = false;
 
+    [Header("Credits System")]
+    public int credits = 0;
+    public int creditsPerKill = 10;
+    public TextMeshProUGUI creditsText;
+
     [Header("UI")]
     public TextMeshProUGUI waveText;
-    public GameObject upgradePanel; // assign in inspector
+    public GameObject upgradePanel;
+    public GameObject gameWonPanel; // assign in inspector
 
     void Start()
     {
         UpdateWaveUI();
+        UpdateCreditsUI();
         ApplyWaveSettings();
 
         if (upgradePanel != null)
             upgradePanel.SetActive(false);
+
+        if (gameWonPanel != null)
+            gameWonPanel.SetActive(false);
     }
 
     void Update()
@@ -85,6 +95,10 @@ public class SpawnManager : MonoBehaviour
     {
         enemiesAlive--;
 
+        // 💰 Add credits
+        credits += creditsPerKill;
+        UpdateCreditsUI();
+
         if (enemiesAlive <= 0 && enemiesSpawned >= enemiesPerWave)
         {
             WaveCompleted();
@@ -99,17 +113,12 @@ public class SpawnManager : MonoBehaviour
         // ⏸️ Pause game
         Time.timeScale = 0f;
 
-        // 🧾 Show upgrade UI
         if (upgradePanel != null)
             upgradePanel.SetActive(true);
-
-        Debug.Log("Wave Complete - Open Upgrade Menu");
     }
 
-    // 🎮 Call this from UI button
     public void ContinueToNextWave()
     {
-        // ▶️ Resume game
         Time.timeScale = 1f;
 
         if (upgradePanel != null)
@@ -125,8 +134,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (currentWave >= totalWaves)
         {
-            Debug.Log("All waves completed!");
-            isSpawning = false;
+            GameWon();
             return;
         }
 
@@ -136,6 +144,24 @@ public class SpawnManager : MonoBehaviour
 
         ApplyWaveSettings();
         UpdateWaveUI();
+    }
+
+    void GameWon()
+    {
+        Debug.Log("You Win!");
+
+        isSpawning = false;
+
+        // ⏸️ Pause game
+        Time.timeScale = 0f;
+
+        // 🏆 Show win UI
+        if (gameWonPanel != null)
+            gameWonPanel.SetActive(true);
+
+        // 🖱️ Unlock cursor
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     void ApplyWaveSettings()
@@ -149,6 +175,14 @@ public class SpawnManager : MonoBehaviour
         if (waveText != null)
         {
             waveText.text = "Wave: " + currentWave + " / " + totalWaves;
+        }
+    }
+
+    void UpdateCreditsUI()
+    {
+        if (creditsText != null)
+        {
+            creditsText.text = "Credits: " + credits;
         }
     }
 }

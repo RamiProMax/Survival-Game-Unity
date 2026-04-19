@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  attackRange: 2
-  damage: 10
+  attackRange: 4
+  damage: 20
   attackCooldown: 1.5
 --- !u!114 &122796617372821324
 MonoBehaviour:
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d91df9d64cb0b044882a72fdd17219e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 40
   hitEffect: {fileID: 4515497926535975121, guid: bddb971e34eb14d48be30c7b922eb077, type: 3}
   deathEffect: {fileID: 0}
   enemyAI: {fileID: 4575459902535147550}

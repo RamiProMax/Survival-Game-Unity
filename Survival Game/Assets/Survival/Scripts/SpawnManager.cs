@@ -85,9 +85,9 @@ public class SpawnManager : MonoBehaviour
 
     GameObject GetEnemyForWave()
     {
-        if (currentWave <= 2)
+        if (currentWave <= 1)
             return enemyPrefabs[0];
-        else if (currentWave <= 4)
+        else if (currentWave <= 3)
             return enemyPrefabs[Random.Range(0, 2)];
         else
             return enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];

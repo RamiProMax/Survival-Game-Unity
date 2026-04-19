@@ -2538,7 +2538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
-  hitEffect: {fileID: 0}
+  hitEffect: {fileID: 4515497926535975121, guid: bddb971e34eb14d48be30c7b922eb077, type: 3}
   deathEffect: {fileID: 0}
   enemyAI: {fileID: -1332217715626440560}
 --- !u!136 &3032785462724057946

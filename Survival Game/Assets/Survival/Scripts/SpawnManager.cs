@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // If using TextMeshPro
+using TMPro;
 
 public class SpawnManager : MonoBehaviour
 {
@@ -21,19 +21,24 @@ public class SpawnManager : MonoBehaviour
 
     private float timer;
     private bool isSpawning = true;
+    private bool waitingForUpgrade = false;
 
     [Header("UI")]
     public TextMeshProUGUI waveText;
+    public GameObject upgradePanel; // assign in inspector
 
     void Start()
     {
         UpdateWaveUI();
         ApplyWaveSettings();
+
+        if (upgradePanel != null)
+            upgradePanel.SetActive(false);
     }
 
     void Update()
     {
-        if (!isSpawning) return;
+        if (!isSpawning || waitingForUpgrade) return;
 
         timer += Time.deltaTime;
 
@@ -69,17 +74,11 @@ public class SpawnManager : MonoBehaviour
     GameObject GetEnemyForWave()
     {
         if (currentWave <= 2)
-        {
             return enemyPrefabs[0];
-        }
         else if (currentWave <= 4)
-        {
             return enemyPrefabs[Random.Range(0, 2)];
-        }
         else
-        {
             return enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
-        }
     }
 
     public void OnEnemyKilled()
@@ -88,8 +87,38 @@ public class SpawnManager : MonoBehaviour
 
         if (enemiesAlive <= 0 && enemiesSpawned >= enemiesPerWave)
         {
-            NextWave();
+            WaveCompleted();
         }
+    }
+
+    void WaveCompleted()
+    {
+        isSpawning = false;
+        waitingForUpgrade = true;
+
+        // ⏸️ Pause game
+        Time.timeScale = 0f;
+
+        // 🧾 Show upgrade UI
+        if (upgradePanel != null)
+            upgradePanel.SetActive(true);
+
+        Debug.Log("Wave Complete - Open Upgrade Menu");
+    }
+
+    // 🎮 Call this from UI button
+    public void ContinueToNextWave()
+    {
+        // ▶️ Resume game
+        Time.timeScale = 1f;
+
+        if (upgradePanel != null)
+            upgradePanel.SetActive(false);
+
+        waitingForUpgrade = false;
+
+        NextWave();
+        isSpawning = true;
     }
 
     void NextWave()
@@ -103,6 +132,7 @@ public class SpawnManager : MonoBehaviour
 
         currentWave++;
         enemiesSpawned = 0;
+        enemiesAlive = 0;
 
         ApplyWaveSettings();
         UpdateWaveUI();
@@ -110,7 +140,6 @@ public class SpawnManager : MonoBehaviour
 
     void ApplyWaveSettings()
     {
-        // Increase difficulty per wave
         enemiesPerWave = 5 + (currentWave * 2);
         spawnInterval = Mathf.Max(0.5f, 2f - (currentWave * 0.2f));
     }

@@ -3,11 +3,17 @@ Game Title: Sentinel
 Controls: 
 
 Movement: WASD
+
 Reload: R
+
 Sprint: Shift 
+
 Jump: Space
+
 Aim: Mouse
+
 Shoot: Left Click
+
 Unequip/Equip Weapon: E
 
 Enemy Types:  Evil Clown, Monster Mutant and Monster Orc

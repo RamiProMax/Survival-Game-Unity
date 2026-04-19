@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public DamageOverlay damageOverlay;
     public GameObject playerParent;
     public GameObject theMainCam;
     [Header("Health Settings")]
@@ -46,7 +47,7 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
-
+        damageOverlay.ShowDamage();
         lastDamageTime = Time.time;
 
         UpdateUI();

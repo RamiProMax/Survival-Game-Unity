@@ -11,6 +11,8 @@ public class UIFunctions : MonoBehaviour
     public FirstPersonController firstPersonController;
     public PlayerHealth playerHealth;
     public SpawnManager spawnManager;
+    public Transform healthBar;
+    public Transform sprintBar;
 
     // 🔴 Quit Game
     public void QuitGame()
@@ -84,7 +86,10 @@ public class UIFunctions : MonoBehaviour
     public void IncreaseSprint()
     {   if(spawnManager.credits >= 70)
         {
-            firstPersonController.sprintDuration = 12;
+            firstPersonController.sprintDuration = firstPersonController.sprintDuration*1.25f;
+            Vector3 scale = sprintBar.localScale;
+            scale.x += 0.3f;
+            sprintBar.localScale = scale;
             spawnManager.credits = spawnManager.credits - 70;
             spawnManager.creditsText.text = "Scarp: " + spawnManager.credits;
         }
@@ -94,7 +99,10 @@ public class UIFunctions : MonoBehaviour
     {
         if(spawnManager.credits >= 70)
         {
-            playerHealth.maxHealth = 130;
+            playerHealth.maxHealth = playerHealth.maxHealth*1.30f;
+            Vector3 scale = healthBar.localScale;
+            scale.x += 0.3f;
+            healthBar.localScale = scale;
             spawnManager.credits = spawnManager.credits - 70;
             spawnManager.creditsText.text = "Scarp: " + spawnManager.credits;
         }

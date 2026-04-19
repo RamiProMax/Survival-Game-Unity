@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class SpawnManager : MonoBehaviour
 {
@@ -33,7 +34,7 @@ public class SpawnManager : MonoBehaviour
     [Header("UI")]
     public TextMeshProUGUI waveText;
     public GameObject upgradePanel;
-    public GameObject gameWonPanel; // assign in inspector
+    public GameObject gameWonPanel;
 
     void Start()
     {
@@ -112,7 +113,25 @@ public class SpawnManager : MonoBehaviour
         isSpawning = false;
         waitingForUpgrade = true;
 
-        // ⏸️ Pause game
+        // 🏆 If FINAL wave → go straight to win
+        if (currentWave >= totalWaves)
+        {
+            GameWon();
+            return;
+        }
+
+        // 🎬 Optional slow-mo effect before upgrade
+        Time.timeScale = 0.3f;
+
+        // ⏳ Delay upgrade panel
+        StartCoroutine(ShowUpgradePanelAfterDelay(2f));
+    }
+
+    IEnumerator ShowUpgradePanelAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay); // unaffected by timeScale
+
+        // ⏸️ Pause game fully
         Time.timeScale = 0f;
 
         if (upgradePanel != null)
@@ -120,6 +139,7 @@ public class SpawnManager : MonoBehaviour
             upgradePanel.SetActive(true);
             playerParent.SetActive(false);
             theMainCam.SetActive(true);
+
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
@@ -131,8 +151,9 @@ public class SpawnManager : MonoBehaviour
 
         if (upgradePanel != null)
             upgradePanel.SetActive(false);
-            playerParent.SetActive(true);
-            theMainCam.SetActive(false);
+
+        playerParent.SetActive(true);
+        theMainCam.SetActive(false);
 
         waitingForUpgrade = false;
 
@@ -165,14 +186,13 @@ public class SpawnManager : MonoBehaviour
         // ⏸️ Pause game
         Time.timeScale = 0f;
 
-        // 🏆 Show win UI
         if (gameWonPanel != null)
+        {
             gameWonPanel.SetActive(true);
             playerParent.SetActive(false);
             theMainCam.SetActive(true);
+        }
 
-
-        // 🖱️ Unlock cursor
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
@@ -195,7 +215,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (creditsText != null)
         {
-            creditsText.text = "Scarps: " + credits;
+            creditsText.text = "Scraps: " + credits;
         }
     }
 }

@@ -17,7 +17,7 @@ public class WeaponShoot : MonoBehaviour
             if(Time.time >= nextFireTime)
             {
                 RaycastHit hit;
-                Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, Mathf.Infinity);
+                Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 150);
 
                 if(hit.collider.tag == "Enemy")
                 {

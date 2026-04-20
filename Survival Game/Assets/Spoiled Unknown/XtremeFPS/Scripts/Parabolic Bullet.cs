@@ -86,12 +86,35 @@ namespace XtremeFPS.WeaponSystem
             return Physics.Raycast(startPoint, endPoint - startPoint, out hit, (endPoint - startPoint).magnitude);
         }
 
+        // private void OnHit(RaycastHit hit)
+        // {
+        //     if (hit.transform.TryGetComponent<IShootableObject>(out IShootableObject shootableObject)) shootableObject.OnHit(hit, damage);
+
+        //     GameObject HitObject = PoolManager.Instance.SpawnObject(particlesPrefab, hit.point + hit.normal * 0.05f, Quaternion.LookRotation(hit.normal));
+        //     HitObject.transform.parent = hit.transform;
+
+        //     OnBulletDestroy();
+        // }
+
         private void OnHit(RaycastHit hit)
         {
-            if (hit.transform.TryGetComponent<IShootableObject>(out IShootableObject shootableObject)) shootableObject.OnHit(hit, damage);
+            if (hit.transform.TryGetComponent<IShootableObject>(out IShootableObject shootableObject))
+                shootableObject.OnHit(hit, damage);
 
-            GameObject HitObject = PoolManager.Instance.SpawnObject(particlesPrefab, hit.point + hit.normal * 0.05f, Quaternion.LookRotation(hit.normal));
-            HitObject.transform.parent = hit.transform;
+            
+            if (particlesPrefab != null && PoolManager.Instance != null)
+            {
+                GameObject HitObject = PoolManager.Instance.SpawnObject(
+                    particlesPrefab,
+                    hit.point + hit.normal * 0.05f,
+                    Quaternion.LookRotation(hit.normal)
+                );
+
+                if (HitObject != null)
+                {
+                    HitObject.transform.parent = hit.transform;
+                }
+            }
 
             OnBulletDestroy();
         }

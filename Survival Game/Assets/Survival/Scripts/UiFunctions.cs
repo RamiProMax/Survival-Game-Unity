@@ -14,17 +14,19 @@ public class UIFunctions : MonoBehaviour
     public Transform healthBar;
     public Transform sprintBar;
 
-    // 🔴 Quit Game
+  
     public void QuitGame()
     {
-        Debug.Log("Quitting Game...");
+        Debug.Log("Quit button pressed");
 
-        Application.Quit();
-
-        // This only works in build, not in editor
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false; // stops play mode
+#else
+        Application.Quit(); // quits build
+#endif
     }
 
-    // 🔄 Restart / Reload Current Scene
+    
     public void RestartScene()
     {
         Time.timeScale = 1f; // make sure game isn't paused
@@ -65,7 +67,7 @@ public class UIFunctions : MonoBehaviour
         
         if (amount == 150)
         {
-            if(spawnManager.credits >- 50)
+            if(spawnManager.credits >= 50)
             {
                 spawnManager.credits = spawnManager.credits- 50;
                 universalWeaponSystem.totalBullets += amount;

@@ -41,4 +41,8 @@ Audio:
 Particle Effect:
 1. https://assetstore.unity.com/packages/vfx/particles/hit-effects-free-284613
 
-I like how well the HP system works, regeneration is the same as COD or other games and how visual the store is and how responsive the purchases look in UI once bought.
+Known Bugs:
+I've used an asset for fpov shooter, it has a pooling system that pools the bullets used, however once 30 bullets are used it gives an error, the game works fine still and all the bullets are useable, but it just gives an error for each bullet, some part of a script is trying to access it but can't reach it. I haven't yet resolved that.
+
+What I Like About It:
+I like how well the HP system works, regeneration is the same as COD or other games and how visual the store is and how responsive the purchases look in UI once bought. 

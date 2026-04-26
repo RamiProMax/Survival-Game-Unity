@@ -4,6 +4,7 @@ public class EnemyHealth : MonoBehaviour
 {
     [Header("Health Settings")]
     public float maxHealth = 50f;
+    public int scoreValue = 10;
 
     private float currentHealth;
     private bool isDead = false;
@@ -51,7 +52,7 @@ public class EnemyHealth : MonoBehaviour
         SpawnManager sm = Object.FindAnyObjectByType<SpawnManager>();
         if (sm != null)
         {
-            sm.OnEnemyKilled();
+            sm.OnEnemyKilled(scoreValue);
         }
         
         // Destroy enemy

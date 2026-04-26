@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
+using XtremeFPS.FPSController;
 
 public class PlayerHealth : MonoBehaviour
 {
     public DamageOverlay damageOverlay;
+    public FirstPersonController firstPersonController;
     public GameObject playerParent;
     public GameObject theMainCam;
+
     [Header("Health Settings")]
     public float maxHealth = 100f;
     public float currentHealth;
@@ -19,12 +22,14 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("UI")]
     public Slider healthSlider;
-    public GameObject gameOverPanel; // assign in inspector
+    public GameObject gameOverPanel;
 
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip deathSound;
 
+    
+    
     void Start()
     {
         currentHealth = maxHealth;
@@ -47,8 +52,14 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
+
         damageOverlay.ShowDamage();
+        if (firstPersonController != null)
+        {
+            firstPersonController.TriggerDamageShake();
+        }
         lastDamageTime = Time.time;
+
 
         UpdateUI();
 
@@ -86,18 +97,14 @@ public class PlayerHealth : MonoBehaviour
 
         Debug.Log("Player Dead");
 
-        
         audioSource.PlayOneShot(deathSound);
-    
+
         gameOverPanel.SetActive(true);
         theMainCam.SetActive(true);
         playerParent.SetActive(false);
-        
 
-        // ⏸️ Pause game
         Time.timeScale = 0f;
 
-        // 🖱️ Unlock cursor (important for UI)
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }

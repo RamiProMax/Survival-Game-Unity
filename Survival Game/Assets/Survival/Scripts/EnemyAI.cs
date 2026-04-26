@@ -80,6 +80,7 @@ public class EnemyAI : MonoBehaviour
         agent.isStopped = true;
         agent.enabled = false; // important!
 
+
         animator.SetBool("isRunning", false);
         animator.SetBool("isAttacking", false);
         animator.SetBool("Dead", true);

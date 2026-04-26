@@ -118,7 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   attackRange: 1.5
-  damage: 12
+  damage: 20
   attackCooldown: 1.5
 --- !u!136 &1562386918633001919
 CapsuleCollider:
@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
+  scoreValue: 20
   hitEffect: {fileID: 4515497926535975121, guid: bddb971e34eb14d48be30c7b922eb077, type: 3}
   deathEffect: {fileID: 162584487599433031, guid: 39f852c28f9c3fd45a427c24f3564ba7, type: 3}
   enemyAI: {fileID: -6673714132695396154}

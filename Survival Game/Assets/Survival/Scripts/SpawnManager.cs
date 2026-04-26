@@ -31,6 +31,12 @@ public class SpawnManager : MonoBehaviour
     public int creditsPerKill = 10;
     public TextMeshProUGUI creditsText;
 
+    [Header("Score System")]
+    public int score = 0;
+    public TextMeshProUGUI scoreText1;
+    public TextMeshProUGUI scoreText2;
+    public TextMeshProUGUI scoreText3;
+
     [Header("UI")]
     public TextMeshProUGUI waveText;
     public GameObject upgradePanel;
@@ -40,6 +46,7 @@ public class SpawnManager : MonoBehaviour
     {
         UpdateWaveUI();
         UpdateCreditsUI();
+        UpdateScoreUI();
         ApplyWaveSettings();
 
         if (upgradePanel != null)
@@ -94,13 +101,18 @@ public class SpawnManager : MonoBehaviour
             return enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
     }
 
-    public void OnEnemyKilled()
+    // 🔥 UPDATED FUNCTION (takes score)
+    public void OnEnemyKilled(int scoreValue)
     {
         enemiesAlive--;
 
-        // 💰 Add credits
+        // 💰 Credits (still flat, you can also customize this later)
         credits += creditsPerKill;
         UpdateCreditsUI();
+
+        // ⭐ Add dynamic score
+        score += scoreValue;
+        UpdateScoreUI();
 
         if (enemiesAlive <= 0 && enemiesSpawned >= enemiesPerWave)
         {
@@ -113,25 +125,20 @@ public class SpawnManager : MonoBehaviour
         isSpawning = false;
         waitingForUpgrade = true;
 
-        // 🏆 If FINAL wave → go straight to win
         if (currentWave >= totalWaves)
         {
             GameWon();
             return;
         }
 
-        // 🎬 Optional slow-mo effect before upgrade
         Time.timeScale = 0.3f;
-
-        // ⏳ Delay upgrade panel
         StartCoroutine(ShowUpgradePanelAfterDelay(2f));
     }
 
     IEnumerator ShowUpgradePanelAfterDelay(float delay)
     {
-        yield return new WaitForSecondsRealtime(delay); // unaffected by timeScale
+        yield return new WaitForSecondsRealtime(delay);
 
-        // ⏸️ Pause game fully
         Time.timeScale = 0f;
 
         if (upgradePanel != null)
@@ -182,8 +189,6 @@ public class SpawnManager : MonoBehaviour
         Debug.Log("You Win!");
 
         isSpawning = false;
-
-        // ⏸️ Pause game
         Time.timeScale = 0f;
 
         if (gameWonPanel != null)
@@ -215,7 +220,18 @@ public class SpawnManager : MonoBehaviour
     {
         if (creditsText != null)
         {
-            creditsText.text = "Scraps: " + credits;
+            creditsText.text = "Scrap: " + credits;
         }
+    }
+
+    void UpdateScoreUI()
+    {
+        if (scoreText1 != null)
+            scoreText1.text = "Score: " + score;
+
+        if (scoreText2 != null)
+            scoreText2.text = "Score: " + score;
+        if (scoreText3 != null)
+            scoreText3.text = "Score: " + score;
     }
 }

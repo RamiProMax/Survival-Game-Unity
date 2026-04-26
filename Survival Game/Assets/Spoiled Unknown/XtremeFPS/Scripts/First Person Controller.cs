@@ -90,10 +90,16 @@ namespace XtremeFPS.FPSController
         public float minimumClamp;
         public float sprintFOV;
         public float FOV;
+        [Header("Damage Camera Shake")]
+        public bool enableDamageShake = true;
+        public float damageShakeDuration = 0.12f;
+        public float damageShakeMagnitude = 1.2f;
 
         private float rotationY;
         float mouseDirectionX;
         float mouseDirectionY;
+        private float damageShakeTimer;
+        private Vector2 damageShakeOffset;
 
         //Zooming
         public bool enableZoom;
@@ -207,8 +213,23 @@ namespace XtremeFPS.FPSController
             rotationY = Mathf.Clamp(rotationY, minimumClamp, maximumClamp);
 
             transform.Rotate(mouseDirectionX * transform.up);
-            cameraFollow.localRotation = Quaternion.Euler(rotationY, 0f, 0f);
+            UpdateDamageShake();
+            cameraFollow.localRotation = Quaternion.Euler(rotationY + damageShakeOffset.y, 0f, damageShakeOffset.x);
             inputManager.mouseDirection = Vector2.zero;
+        }
+
+        private void UpdateDamageShake()
+        {
+            if (!enableDamageShake || damageShakeTimer <= 0f)
+            {
+                damageShakeTimer = 0f;
+                damageShakeOffset = Vector2.zero;
+                return;
+            }
+
+            damageShakeTimer -= Time.deltaTime;
+            float normalizedTime = Mathf.Clamp01(damageShakeTimer / damageShakeDuration);
+            damageShakeOffset *= normalizedTime;
         }
 
         private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -249,6 +270,16 @@ namespace XtremeFPS.FPSController
         {
             this.hRecoil = hRecoil;
             this.vRecoil = vRecoil;
+        }
+
+        public void TriggerDamageShake(float intensityMultiplier = 1f)
+        {
+            if (!enableDamageShake) return;
+            damageShakeTimer = Mathf.Max(damageShakeTimer, damageShakeDuration);
+            float clampedIntensity = Mathf.Max(0f, intensityMultiplier);
+            float currentMagnitude = damageShakeMagnitude * clampedIntensity;
+            damageShakeOffset.x = Random.Range(-currentMagnitude, currentMagnitude);
+            damageShakeOffset.y = Random.Range(-currentMagnitude, currentMagnitude);
         }
 
         private void HandleZoom()

@@ -71,7 +71,7 @@ public class UIFunctions : MonoBehaviour
             {
                 spawnManager.credits = spawnManager.credits- 50;
                 universalWeaponSystem.totalBullets += amount;
-                spawnManager.creditsText.text = "Scarp: " + spawnManager.credits;
+                spawnManager.creditsText.text = "Scrap: " + spawnManager.credits;
             }     
         }
         else 
@@ -80,7 +80,7 @@ public class UIFunctions : MonoBehaviour
             {
                 spawnManager.credits = spawnManager.credits - 100;
                 universalWeaponSystem.totalBullets += amount;
-                spawnManager.creditsText.text = "Scarp: " + spawnManager.credits;
+                spawnManager.creditsText.text = "Scrap: " + spawnManager.credits;
             }
         }
     }
@@ -93,7 +93,7 @@ public class UIFunctions : MonoBehaviour
             scale.x += 0.3f;
             sprintBar.localScale = scale;
             spawnManager.credits = spawnManager.credits - 70;
-            spawnManager.creditsText.text = "Scarp: " + spawnManager.credits;
+            spawnManager.creditsText.text = "Scrap: " + spawnManager.credits;
         }
     }
 
@@ -106,7 +106,7 @@ public class UIFunctions : MonoBehaviour
             scale.x += 0.3f;
             healthBar.localScale = scale;
             spawnManager.credits = spawnManager.credits - 70;
-            spawnManager.creditsText.text = "Scarp: " + spawnManager.credits;
+            spawnManager.creditsText.text = "Scrap: " + spawnManager.credits;
         }
     }
 }
